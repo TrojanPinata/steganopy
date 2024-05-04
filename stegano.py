@@ -277,7 +277,7 @@ def gui(c):
    frame.pack()
    c.frame = frame
 
-   headerText = Label(frame, text="StenoPy", font=("IBM Plex Sans", 20))
+   headerText = Label(frame, text="SteganoPy", font=("IBM Plex Sans", 20))
    imageBtn = Button(frame, text="Load Image", bd="5", command=lambda: chooseImage(c))
    imageLabel = Label(frame, text=genImageFound(c), font=("IBM Plex Sans", 12))
    keyLabel = Label(frame, text=genKeyFound(c), font=("IBM Plex Sans", 12))
